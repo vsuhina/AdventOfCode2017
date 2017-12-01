@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e808b650-8ebc-4232-9e74-89ac08aad968</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day01.py</StartupFile>
+    <StartupFile>star02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Day01.py" />
+    <Content Include="input.txt" />
+    <Content Include="task01.txt" />
+    <Content Include="task02.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="star01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="star02.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
